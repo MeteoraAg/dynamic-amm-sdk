@@ -15,9 +15,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-### Fixed   
+### Fixed
 
 ### Security
+
+## @meteora-ag/dynamic-amm-sdk [1.3.2] - PR[#203](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/203)
+
+- improve stake pool price
 
 ## @meteora-ag/dynamic-amm-sdk [1.3.1] - PR[#202](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/202)
 

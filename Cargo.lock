@@ -1066,7 +1066,7 @@ dependencies = [
 
 [[package]]
 name = "cli"
-version = "0.0.4"
+version = "0.0.5"
 dependencies = [
  "anchor-client",
  "anchor-lang",
@@ -1074,6 +1074,7 @@ dependencies = [
  "anyhow",
  "bincode",
  "clap 3.2.25",
+ "common",
  "dynamic-amm",
  "dynamic-amm-quote",
  "dynamic-vault",
@@ -1099,6 +1100,20 @@ dependencies = [
  "either",
  "memchr",
  "unreachable",
+]
+
+[[package]]
+name = "common"
+version = "0.0.5"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "dynamic-amm",
+ "dynamic-vault",
+ "lazy_static",
+ "mpl-token-metadata",
+ "solana-sdk",
+ "spl-associated-token-account 2.2.0",
 ]
 
 [[package]]
@@ -1468,7 +1483,7 @@ dependencies = [
 
 [[package]]
 name = "dynamic-amm-quote"
-version = "0.0.4"
+version = "0.0.5"
 dependencies = [
  "anchor-client",
  "anchor-lang",
